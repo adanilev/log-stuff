@@ -1,4 +1,4 @@
-Simple tool for choosing how much detail to log to the console. Syntax inspired by logit.
+Simple node module for choosing how much detail to log to the console. Syntax inspired by logit.
 
 
 ## Usage

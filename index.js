@@ -1,3 +1,9 @@
+/*
+ *
+ * log-stuff
+ *
+ */
+
 var sllog = require('single-line-log').stdout;
 var logLevel;
 var currProgress;
