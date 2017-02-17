@@ -71,7 +71,7 @@ LogStuff.prototype.finest = function(str){
 
 LogStuff.prototype.progress = function(str){
   this.currProgress = str;
-  sllog(this.currProgress);
+  sllog(this.currProgress + '\n');
 }
 
 
@@ -81,7 +81,7 @@ LogStuff.prototype.log = function(str,level) {
     //keep progress bars at the bottom
     sllog('');
     if (level <= this.logLevel) console.log(str);
-    sllog(this.currProgress)
+    sllog(this.currProgress + '\n')
   } else {
     //just log
     if (level <= this.logLevel) console.log(str);
